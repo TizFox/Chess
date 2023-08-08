@@ -87,7 +87,7 @@ function createBoard(fen) {
 }
 
 window.onload = function () {
-    var fenString = "4K3/R7/8/8/8/4r3/8/4k3";//"RNBQKBNR/PPPPPPPPP/8/8/8/8/pppppppp/rnbqkbnr";
+    var fenString = "RNBQKBNR/PPPPPPPPP/8/8/8/8/pppppppp/rnbqkbnr";
     createBoard(fenString);
 
     document.body.style.zoom = 0.9;
